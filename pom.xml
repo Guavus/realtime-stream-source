@@ -80,7 +80,7 @@
   </repositories>
 
   <properties>
-    <cdap.version>5.1.201</cdap.version>
+    <cdap.version>5.1.202</cdap.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <hadoop.version>2.3.0</hadoop.version>
     <commons-jexl.version>3.0</commons-jexl.version>
