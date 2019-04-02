@@ -54,30 +54,15 @@
   </issueManagement>
 
   <distributionManagement>
-    <repository>
-      <id>sonatype.release</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
-    </repository>
-    <snapshotRepository>
-      <id>sonatype.snapshots</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <site>
-      <id>cask</id>
-      <url>http://cask.co</url>
-    </site>
+           <repository>
+               <id>central</id>
+               <url>http://artifacts.ggn.in.guavus.com:80/libs-release-local</url>
+           </repository>
+           <snapshotRepository>
+               <id>snapshots</id>
+               <url>http://artifacts.ggn.in.guavus.com:8081/artifactory/libs-snapshot-local</url>
+           </snapshotRepository>
   </distributionManagement>
-
-  <repositories>
-    <repository>
-      <id>sonatype</id>
-      <url>https://oss.sonatype.org/content/groups/public</url>
-    </repository>
-    <repository>
-      <id>sonatype-snapshots</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </repository>
-  </repositories>
 
   <properties>
     <cdap.version>5.1.202</cdap.version>
@@ -488,7 +473,7 @@
             </executions>
           </plugin>
 
-          <plugin>
+          <!--<plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-gpg-plugin</artifactId>
             <version>1.5</version>
@@ -503,7 +488,7 @@
                 </goals>
               </execution>
             </executions>
-          </plugin>
+          </plugin>-->
         </plugins>
       </build>
     </profile>
