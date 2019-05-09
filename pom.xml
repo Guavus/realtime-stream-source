@@ -22,7 +22,7 @@
 
   <groupId>groupId</groupId>
   <artifactId>realtime-stream-source</artifactId>
-  <version>1.5.0</version>
+  <version>1.5.0_5.1.204</version>
 
   <licenses>
     <license>
