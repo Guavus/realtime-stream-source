@@ -48,7 +48,7 @@ import javax.annotation.Nullable;
 /**
  * Realtime CDAP spark streaming source
  */
-@Plugin(type = StreamingSource.PLUGIN_TYPE)
+//@Plugin(type = StreamingSource.PLUGIN_TYPE)
 @Name("Stream")
 @Description("CDAP stream realtime spark streaming source.")
 public class RealtimeStreamingSource extends StreamingSource<StructuredRecord> {
